@@ -29,6 +29,4 @@ public class DataSourceConfiguration {
 		config.setDriverClassName(driveClassName);
 		return new HikariDataSource(config);
 	}
-
-	
 }
